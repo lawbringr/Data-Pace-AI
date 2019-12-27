@@ -30,7 +30,8 @@ on Postman and explore the APIs.
 2. http://127.0.0.1:5000//api/users/{id} - GET - To get the details of a user
 3. http://127.0.0.1:5000//api/users/api/users?{Query} - GET - To list the users according to the query
 4. http://127.0.0.1:5000//api/users/{id} - PUT - To update the details of a user (use $set parameter Example:
-```{
+```JSON
+{
 	"$set": {
 		"first_name": "Vishwas Saini"
 	}
