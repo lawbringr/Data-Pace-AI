@@ -14,7 +14,7 @@ To start MongoDB Server in Windows, start Mongo Daemon (mongod.exe)
 C:\> "C:\Program Files\MongoDB\Server\4.2\bin\mongod.exe"
 ```
 ## Config the application
-Change the `Database Name` in the config file according to the database name you are using.
+Change the `Database Name` in the `config.py` file according to the database name you are using.
 Change the `userData.py` line no.14 and 16 and give respective `Database name` and `collection name`
 
 ## Start the application
